@@ -105,6 +105,10 @@
             <Form>Form1</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="units\Apollo.Transporte.Product.pas"/>
+        <DCCReference Include="units\Apollo.Transporte.Creator.pas"/>
+        <DCCReference Include="units\Apollo.Transporte.ConcreteProduct.pas"/>
+        <DCCReference Include="units\Apollo.Transporte.ConcreteCreator.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -131,7 +135,7 @@
                 </Excluded_Packages>
             </Delphi.Personality>
             <Deployment Version="4">
-                <DeployFile LocalName="Win32\Debug\Apollo1.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="..\Apollo1.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>Apollo1.exe</RemoteName>
                         <Overwrite>true</Overwrite>
